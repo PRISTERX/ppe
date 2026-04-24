@@ -182,7 +182,7 @@ with st.sidebar:
 
     model_path = st.text_input(
         "Ruta del modelo (best.pt)",
-        value="/content/drive/MyDrive/ppe/ejecuciones/yolov8n-4/weights/best.pt",
+        value="best.pt",
         help="Ruta al archivo best.pt generado por el entrenamiento"
     )
 
